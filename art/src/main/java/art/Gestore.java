@@ -10,8 +10,8 @@ public class Gestore {
 		this.id = id.hashCode();
 	}
 	
-	public void addTornata(int id, int type, int votingMethod) {
-		TornataElettorale ta = new TornataElettorale(id, type, votingMethod);
+	public void addTornata(int id, int type, int votingMethod, int openingDate) {
+		TornataElettorale ta = new TornataElettorale(id, type, votingMethod, openingDate);
 		tornate.add(ta);
 	}
 	
